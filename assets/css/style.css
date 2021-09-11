@@ -1,0 +1,71 @@
+.bg-primary1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #343a40;
+    background-image: url("../img/gebaudea.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.text-center{
+    color: white;
+}
+.container.text-center{
+    background: rgba(52, 58, 64, 0.7);
+    width:45%;
+}
+#nice{
+    font-size: 110%;
+    font-weight: bold;
+}
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+@media (max-width: 700px){
+    h1{
+        font-size: 40px;
+    }
+    p.lead{
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px){
+    h1{
+        font-size: 35px;
+    }
+    p.lead{
+        font-size: 0px;
+    }
+}
+@media (max-width: 500px){
+    h1{
+        font-size: 30px;
+    }
+    p.lead{
+        font-size: 0px;
+    }
+}
+@media (max-width: 400px){
+    h1{
+        font-size: 20px;
+    }
+    p.lead{
+        font-size: 0px;
+    }
+    .navbar-brand.js-scroll-trigger{
+        font-size: 15px;
+    }
+}
+@media (max-width: 300px){
+    h1{
+        font-size: 10px;
+    }
+    p.lead{
+        font-size: 0px;
+    }
+    .navbar-brand.js-scroll-trigger{
+        font-size: 10px;
+    }
+}
